@@ -13,11 +13,6 @@
         android:orientation="horizontal"
         android:padding="@dimen/dialog_padding">
 
-        <View
-            android:layout_width="@dimen/about_icon_size"
-            android:layout_height="@dimen/about_icon_size"
-            android:background="@drawable/ic_clash" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -92,7 +92,7 @@
     <string name="cancel">Отмена</string>
     <string name="reset">Сброс</string>
 
-    <string name="clash_logcat">Clash Logcat</string>
+    <string name="clash_logcat">Core Logcat</string>
     <string name="history">История</string>
     <string name="logcat">Logcat</string>
 
@@ -106,7 +106,7 @@
     <string name="override">Переопределение</string>
 
     <string name="auto_restart">Автоматический перезапуск</string>
-    <string name="allow_clash_auto_restart">Разрешить Clash автоматически перезапускаться</string>
+    <string name="allow_clash_auto_restart">Разрешить Core автоматически перезапускаться</string>
 
     <string name="route_system_traffic">Маршрутизировать системный трафик</string>
     <string name="routing_via_vpn_service">Автоматически маршрутизировать весь системный трафик через VPN</string>

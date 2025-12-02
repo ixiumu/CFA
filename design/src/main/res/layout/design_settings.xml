@@ -53,8 +53,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="@{() -> self.request(Request.StartMetaFeature)}"
-                    app:icon="@drawable/ic_baseline_meta"
+                    app:icon="@drawable/ic_baseline_domain"
                     app:text="@string/meta_features" />
+
+                <com.github.kr328.clash.design.view.ActionLabel
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{() -> self.request(Request.OpenHelp)}"
+                    app:icon="@drawable/ic_baseline_help_center"
+                    app:text="@string/help" />
+
+                <com.github.kr328.clash.design.view.ActionLabel
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{() -> self.request(Request.OpenAbout)}"
+                    app:icon="@drawable/ic_baseline_info"
+                    app:text="@string/about" />
 
             </LinearLayout>
         </com.github.kr328.clash.design.view.ObservableScrollView>

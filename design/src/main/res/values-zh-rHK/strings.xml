@@ -11,7 +11,7 @@
     <string name="bypass_private_network">繞過私有網絡</string>
     <string name="bypass_private_network_summary">繞過私有網絡地址</string>
     <string name="cancel">取消</string>
-    <string name="clash_logcat">Clash 日誌捕捉工具</string>
+    <string name="clash_logcat">Core 日誌捕捉工具</string>
     <string name="create_profile">創建配置</string>
     <string name="dark_mode">暗黑模式</string>
     <string name="default_">默認</string>
@@ -64,7 +64,7 @@
     <string name="settings">設置</string>
     <string name="show_traffic">顯示流量</string>
     <string name="show_traffic_summary">在通知中自動刷新流量</string>
-    <string name="allow_clash_auto_restart">允許 Clash 自動重啓</string>
+    <string name="allow_clash_auto_restart">允許 Core 自動重啓</string>
     <string name="auto_restart">自動重啓</string>
     <string name="stopped">已停止</string>
     <string name="help">幫助</string>

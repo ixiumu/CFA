@@ -74,7 +74,7 @@
     <string name="ok">確定</string>
     <string name="cancel">キャンセル</string>
     <string name="reset">リセット</string>
-    <string name="clash_logcat">Clash Logcat</string>
+    <string name="clash_logcat">Core Logcat</string>
     <string name="history">履歴</string>
     <string name="logcat">Logcat</string>
     <string name="delete_all_logs">すべてのログを削除</string>
@@ -85,7 +85,7 @@
     <string name="interface_">インターフェイス</string>
     <string name="override">オーバライド</string>
     <string name="auto_restart">自動リスタート</string>
-    <string name="allow_clash_auto_restart">Clashの自動リスタートを許可</string>
+    <string name="allow_clash_auto_restart">Coreの自動リスタートを許可</string>
     <string name="route_system_traffic">ルートシステムトラフィック</string>
     <string name="routing_via_vpn_service">全てのトラフィックをVPNサービス経由でルーティング</string>
     <string name="vpn_service_options">VPNサービスのオプション</string>

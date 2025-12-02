@@ -21,8 +21,6 @@ class MainDesign(context: Context) : Design<MainDesign.Request>(context) {
         OpenProviders,
         OpenLogs,
         OpenSettings,
-        OpenHelp,
-        OpenAbout,
     }
 
     private val binding = DesignMainBinding
@@ -63,18 +61,6 @@ class MainDesign(context: Context) : Design<MainDesign.Request>(context) {
     suspend fun setHasProviders(has: Boolean) {
         withContext(Dispatchers.Main) {
             binding.hasProviders = has
-        }
-    }
-
-    suspend fun showAbout(versionName: String) {
-        withContext(Dispatchers.Main) {
-            val binding = DesignAboutBinding.inflate(context.layoutInflater).apply {
-                this.versionName = versionName
-            }
-
-            AlertDialog.Builder(context)
-                .setView(binding.root)
-                .show()
         }
     }
 

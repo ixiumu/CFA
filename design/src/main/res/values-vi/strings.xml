@@ -28,7 +28,7 @@
     <string name="allow_all_apps">Cho phép tất cả các ứng dụng</string>
     <string name="allow_bypass">Cho phép bỏ qua</string>
     <string name="allow_bypass_summary">Cho phép tất cả các ứng dụng bỏ qua kết nối VPN này</string>
-    <string name="allow_clash_auto_restart">Cho phép Clash tự khởi động lại</string>
+    <string name="allow_clash_auto_restart">Cho phép Core tự khởi động lại</string>
     <string name="allow_lan">Cho phép mạng LAN</string>
     <string name="allow_selected_apps">Cho phép các ứng dụng đã chọn</string>
     <string name="always_dark">Luôn tối</string>
@@ -52,7 +52,7 @@
     <string name="bypass_private_network">Bỏ qua mạng riêng</string>
     <string name="bypass_private_network_summary">Bỏ qua các địa chỉ mạng riêng</string>
     <string name="cancel">Huỷ bỏ</string>
-    <string name="clash_logcat">Nhật ký Clash</string>
+    <string name="clash_logcat">Nhật ký Core</string>
     <string name="close">Đóng</string>
     <string name="compatible">Tương thích</string>
     <string name="copied">Đã sao chép</string>

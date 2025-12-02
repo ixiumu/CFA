@@ -21,6 +21,8 @@ import com.github.kr328.clash.service.R
 class TileService : TileService() {
     private var currentProfile = ""
     private var clashRunning = false
+    private val iconRest by lazy { Icon.createWithResource(this, R.drawable.ic_logo_service) }
+    private val iconConnected by lazy { Icon.createWithResource(this, R.drawable.ic_logo_service_active) }
 
     override fun onClick() {
         val tile = qsTile ?: return
@@ -66,20 +68,17 @@ class TileService : TileService() {
 
     private fun updateTile() {
         val tile = qsTile ?: return
+        tile.apply {
+            this.state = if (clashRunning) Tile.STATE_ACTIVE else Tile.STATE_INACTIVE
+            this.label = if (clashRunning) currentProfile else getText(R.string.tile_title)
+            this.icon = if (clashRunning) iconConnected else iconRest
 
-        tile.state = if (clashRunning)
-            Tile.STATE_ACTIVE
-        else
-            Tile.STATE_INACTIVE
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                this.subtitle = if (clashRunning) getText(R.string.tile_state_active) else getText(R.string.tile_state_inactive)
+            }
 
-        tile.label = if (currentProfile.isEmpty())
-            getText(R.string.launch_name)
-        else
-            currentProfile
-
-        tile.icon = Icon.createWithResource(this, R.drawable.ic_logo_service)
-
-        tile.updateTile()
+            updateTile()
+        }
     }
 
     private val receiver = object : BroadcastReceiver() {
