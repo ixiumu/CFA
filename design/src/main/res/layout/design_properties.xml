@@ -72,7 +72,7 @@
                     android:layout_marginVertical="@dimen/properties_element_margin_vertical"
                     android:onClick="@{() -> self.inputUrl()}"
                     app:enabled="@{profile.type != Type.File}"
-                    app:icon="@drawable/ic_outline_inbox"
+                    app:icon="@drawable/ic_outline_add_link"
                     app:placeholder="@string/accept_http_content"
                     app:text="@{profile.source}"
                     app:title="@string/url" />
